@@ -9,7 +9,7 @@ local M = {
   config = true,
   opts = {
     lsp_cfg = true, -- true: apply the LSP config
-    goimport = 'gopls', -- if set to 'gopls' will use golsp format
+    goimports = 'gopls', -- if set to 'gopls' will use golsp format
     gofmt = 'gopls', -- if set to 'gopls' will use golsp format
   },
   event = { 'CmdlineEnter' },
